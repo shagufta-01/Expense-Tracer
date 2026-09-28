@@ -1,0 +1,8 @@
+{
+  "name": "MADAR AL-TASIS Expense Tracker",
+  "description": "Shared expense tracker and settlement system for MADAR AL-TASIS AC & Washing Machine services in Makkah, Saudi Arabia.",
+  "requestFramePermissions": [],
+  "majorCapabilities": [
+    "MAJOR_CAPABILITY_SERVER_SIDE_GEMINI_API"
+  ]
+}

@@ -1,0 +1,37 @@
+@import "tailwindcss";
+
+@layer base {
+  html,
+  body {
+    margin: 0;
+    padding: 0;
+    font-family: 'Inter', -apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, sans-serif;
+  }
+
+  [dir="rtl"],
+  .font-cairo {
+    font-family: 'Cairo', 'Inter', -apple-system, sans-serif;
+  }
+}
+
+/* Custom print media styles for PDF / Printable Report */
+@media print {
+  header,
+  aside,
+  nav,
+  button,
+  .no-print {
+    display: none !important;
+  }
+
+  body {
+    background-color: white !important;
+    color: black !important;
+    padding: 0 !important;
+  }
+
+  main {
+    padding: 0 !important;
+    width: 100% !important;
+  }
+}
